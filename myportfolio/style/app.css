@@ -1,0 +1,178 @@
+.header_container {
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    position: fixed;
+}
+
+.page_title {
+    position: relative;
+    /*border-bottom: solid 1px #959595;*/
+}
+
+.page_title h2 {
+    color: #ffffff;
+    display: block;
+    font-size: 0.875rem;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
+
+.logo_wrap {
+    position: relative;
+    /*border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-bottom: solid 1px #959595;*/
+}
+
+.shan_logo {
+    position: absolute;
+    display: block;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.hamburger_button {
+    position: relative;
+    /*border-bottom: solid 1px #959595;*/
+}
+
+.hamburger_button_wrap {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.hamburger_button_wrap div {
+    background-color: #ffffff;
+    width: 24px;
+    height: 1px;
+    transition: all .5s ease;
+}
+
+.top {
+    margin-bottom: 7px;
+}
+
+.mid {
+    margin-bottom: 7px;
+}
+
+/*----------------------------------------------*/
+
+.active .top {
+    transform: rotate(45deg);
+    transform-origin: left top;
+    background-color: #ddc086;
+}
+
+.active .mid {
+    opacity: 0;
+    background-color: #ddc086;
+}
+
+.active .bot {
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    background-color: #ddc086;
+}
+
+/*----------------------------------------------*/
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: 9;
+    overflow: hidden;
+    transition: all .5s ease;
+    display: none;
+}
+
+.overlay.show {
+    opacity: 0.9;
+    display: block;
+}
+
+.main_nav {
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.main_nav ul {
+    margin: 0;
+}
+
+.main_nav ul li a {
+    color: #ffffff;
+    font-size: 3rem;
+    transition: all .3s ease;
+}
+
+.main_nav ul li a:hover {
+    color: #ddc086;
+}
+
+/*----------------------------------------------*/
+
+.banner_img_container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/DSC_2514-Edit-Edit.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    z-index: 8;
+}
+
+.banner_img_container h2 {
+    color: #ffffff;
+    font-size: 5rem;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.scroll_about {
+    position: absolute;
+    display: block;
+    color: #ffffff;
+    size: .875rem;
+    margin-bottom: 0;
+    left: 50%;
+    bottom: 160px;
+    transform: rotate(-90deg) translate(-100%, -85%);
+    transform-origin: 50% 50% 0;
+}
+
+.scroll_down {
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
