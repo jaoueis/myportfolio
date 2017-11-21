@@ -2,3 +2,7 @@
   width: 100%;
   height: 120px;
   background-color: red; }
+
+.about_container section {
+  margin: 0;
+  text-align: center; }
