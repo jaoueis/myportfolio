@@ -3,10 +3,12 @@
     var overlay    = document.querySelector('.nav_overlay');
     var headerBar  = document.querySelector('.header_bar_container');
     var headerLogo = document.querySelector('#header_logo');
+    var noScroll   = document.querySelector('body');
 
     function toggleClass() {
         burger.classList.toggle('active');
         overlay.classList.toggle('show_menu');
+        noScroll.classList.toggle('no-scroll');
     }
 
     function shrinkNav() {
