@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     z-index: 30;
-    transition: all .5s ease;
+    transition: all .3s ease;
     &.shrink {
         background-color: white;
         height: 60px;
@@ -43,7 +43,7 @@
     p {
         font-family: $global_title;
         font-size: 0.875rem;
-        font-weight: 100;
+        font-weight: 400;
         color: white;
         position: absolute;
         top: 50%;
@@ -125,6 +125,7 @@
             margin-left: 0;
             li {
                 list-style-type: none;
+                margin-bottom: 10px;
                 a {
                     font-family: $global_title;
                     font-size: 1.875rem;
@@ -198,13 +199,13 @@
     p {
         font-family: $global_title;
         font-size: 0.875rem;
-        font-weight: 100;
+        font-weight: 400;
         color: white;
         position: absolute;
         bottom: 100px;
         margin-bottom: 0;
         left: 50%;
-        transform: rotate(-90deg) translateY(-85%);
+        transform: rotate(-90deg) translateY(-90%);
     }
     div {
         width: 1px;
@@ -215,8 +216,4 @@
         bottom: 0;
         transform: translateX(-50%);
     }
-}
-
-.about_container {
-    height: 800px;
 }

@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   z-index: 30;
-  transition: all .5s ease; }
+  transition: all .3s ease; }
   .header_bar_container.shrink {
     background-color: white;
     height: 60px;
@@ -34,7 +34,7 @@
   .title_wrap p {
     font-family: "Raleway", sans-serif;
     font-size: 0.875rem;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
     position: absolute;
     top: 50%;
@@ -99,7 +99,8 @@
     .nav_overlay nav ul {
       margin-left: 0; }
       .nav_overlay nav ul li {
-        list-style-type: none; }
+        list-style-type: none;
+        margin-bottom: 10px; }
         .nav_overlay nav ul li a {
           font-family: "Raleway", sans-serif;
           font-size: 1.875rem;
@@ -160,13 +161,13 @@
   .scroll-to p {
     font-family: "Raleway", sans-serif;
     font-size: 0.875rem;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
     position: absolute;
     bottom: 100px;
     margin-bottom: 0;
     left: 50%;
-    transform: rotate(-90deg) translateY(-85%); }
+    transform: rotate(-90deg) translateY(-90%); }
   .scroll-to div {
     width: 1px;
     height: 80px;
@@ -175,9 +176,6 @@
     left: 50%;
     bottom: 0;
     transform: translateX(-50%); }
-
-.about_container {
-  height: 800px; }
 
 .about_container section {
   margin: 0;
