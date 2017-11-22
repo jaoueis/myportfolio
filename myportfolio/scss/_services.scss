@@ -20,12 +20,7 @@
     }
 }
 
-.dev {
-    text-align: center;
-    background-color: $section_bg;
-    margin: 30px 0 30px 0;
-    padding: 80px 10px 60px 10px;
-    overflow: hidden;
+.services_container {
     h3 {
         font-family: $global_title;
         font-size: 1.125rem;
@@ -39,17 +34,22 @@
         color: white;
         margin-bottom: 30px;
     }
+    h4 {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        font-weight: 100;
+        color: white;
+        margin-bottom: 30px;
+    }
+}
+
+.dev {
+    @include services_section;
     .dev_icon_grey {
         height: 120px;
         margin-top: 60px;
         margin-bottom: 60px;
         transform: translateX(30%);
-    }
-    h4 {
-        font-family: $global_title;
-        font-size: 1.125rem;
-        color: white;
-        margin-bottom: 30px;
     }
     .language_icons img {
         width: 60px;
@@ -58,36 +58,12 @@
 }
 
 .photography {
-    text-align: center;
-    background-color: $section_bg;
-    margin: 30px 0 30px 0;
-    padding: 80px 10px 60px 10px;
-    overflow: hidden;
-    h3 {
-        font-family: $global_title;
-        font-size: 1.125rem;
-        font-weight: 100;
-        color: $the_gold;
-        margin-bottom: 40px;
-    }
-    p {
-        font-family: $global_content;
-        font-size: 1rem;
-        color: white;
-        margin-bottom: 30px;
-    }
+    @include services_section;
     .camera_icon_grey {
         height: 120px;
         margin-top: 60px;
         margin-bottom: 60px;
         transform: translateX(-30%);
-    }
-    h4 {
-        font-family: $global_title;
-        font-size: 1.125rem;
-        font-weight: 100;
-        color: white;
-        margin-bottom: 30px;
     }
     .my_gear img {
         width: 60px;
@@ -96,36 +72,12 @@
 }
 
 .design {
-    text-align: center;
-    background-color: $section_bg;
-    margin: 30px 0 30px 0;
-    padding: 80px 10px 60px 10px;
-    overflow: hidden;
-    h3 {
-        font-family: $global_title;
-        font-size: 1.125rem;
-        font-weight: 100;
-        color: $the_gold;
-        margin-bottom: 40px;
-    }
-    p {
-        font-family: $global_content;
-        font-size: 1rem;
-        color: white;
-        margin-bottom: 30px;
-    }
+    @include services_section;
     .design_icon_grey {
         height: 120px;
         margin-top: 60px;
         margin-bottom: 60px;
         transform: translateX(30%);
-    }
-    h4 {
-        font-family: $global_title;
-        font-size: 1.125rem;
-        font-weight: 100;
-        color: white;
-        margin-bottom: 30px;
     }
     .my_tool_kit img {
         width: 60px;
