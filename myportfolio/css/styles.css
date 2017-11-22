@@ -198,11 +198,11 @@
       font-family: "Raleway", sans-serif;
       font-size: 1.125rem;
       font-weight: 700;
-      color: #000; }
+      color: #000000; }
   .about_container .about_text p {
     font-family: "Times New Roman", serif;
     font-size: 1rem;
-    color: #000; }
+    color: #000000; }
 
 .offer {
   text-align: center;
@@ -231,6 +231,7 @@
   .dev h3 {
     font-family: "Raleway", sans-serif;
     font-size: 1.125rem;
+    font-weight: 100;
     color: #ddc086;
     margin-bottom: 40px; }
   .dev p {
@@ -251,3 +252,67 @@
   .dev .language_icons img {
     width: 60px;
     margin: 20px 25px 0 25px; }
+
+.photography {
+  text-align: center;
+  background-color: #252525;
+  margin: 30px 0 30px 0;
+  padding: 80px 10px 60px 10px;
+  overflow: hidden; }
+  .photography h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #ddc086;
+    margin-bottom: 40px; }
+  .photography p {
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px; }
+  .photography .camera_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(-30%); }
+  .photography h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 30px; }
+  .photography .my_gear img {
+    width: 60px;
+    margin: 0 25px 20px 25px; }
+
+.design {
+  text-align: center;
+  background-color: #252525;
+  margin: 30px 0 30px 0;
+  padding: 80px 10px 60px 10px;
+  overflow: hidden; }
+  .design h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #ddc086;
+    margin-bottom: 40px; }
+  .design p {
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px; }
+  .design .design_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(30%); }
+  .design h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 30px; }
+  .design .my_tool_kit img {
+    width: 60px;
+    margin: 0 25px 20px 25px; }
