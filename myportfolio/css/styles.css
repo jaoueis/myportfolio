@@ -286,3 +286,29 @@
   .design .my_tool_kit img {
     width: 60px;
     margin: 0 25px 20px 25px; }
+
+.portfolio_container {
+  padding-top: 80px;
+  text-align: center; }
+  .portfolio_container .portfolio_description {
+    padding: 0 10px 0 10px; }
+    .portfolio_container .portfolio_description h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 1.125rem;
+      color: black;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    .portfolio_container .portfolio_description p {
+      font-family: "Times New Roman", serif;
+      font-size: 1rem;
+      color: black;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+  .portfolio_container .portfolio_wrap {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #252525; }
+    .portfolio_container .portfolio_wrap:nth-child(3) {
+      border-top: solid 1px #ccc; }
+    .portfolio_container .portfolio_wrap:last-child {
+      border-top: solid 1px #ccc; }
