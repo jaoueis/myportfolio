@@ -1,4 +1,24 @@
+//FONTS
 $global_title: 'Raleway', sans-serif;
 $global_content: 'Times New Roman', serif;
 
+//COLOURS
 $the_gold: #ddc086;
+$section_bg: #252525;
+
+//HR
+.section_hr {
+    width: 68px;
+    height: 1px;
+    background-color: $the_gold;
+    margin: 0 auto;
+}
+
+//SECTION
+@mixin services_section {
+    text-align: center;
+    background-color: $section_bg;
+    margin: 30px 0 30px 0;
+    padding: 80px 10px 60px 10px;
+    overflow: hidden;
+}

@@ -1,3 +1,9 @@
+.section_hr {
+  width: 68px;
+  height: 1px;
+  background-color: #ddc086;
+  margin: 0 auto; }
+
 .header_bar_container {
   position: fixed;
   width: 100%;
@@ -192,8 +198,117 @@
       font-family: "Raleway", sans-serif;
       font-size: 1.125rem;
       font-weight: 700;
-      color: #000; }
+      color: #000000; }
   .about_container .about_text p {
     font-family: "Times New Roman", serif;
     font-size: 1rem;
-    color: #000; }
+    color: #000000; }
+
+.offer {
+  text-align: center;
+  background-color: #252525;
+  padding: 80px 10px 10px 10px; }
+  .offer h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    color: #ddc086;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  .offer img {
+    width: 80px; }
+  .offer p {
+    font-family: "Times New Roman", serif;
+    font-size: 1.125rem;
+    color: white;
+    margin: 20px 0 50px 0; }
+
+.services_container h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 100;
+  color: #ddc086;
+  margin-bottom: 40px; }
+
+.services_container p {
+  font-family: "Times New Roman", serif;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 30px; }
+
+.services_container h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 100;
+  color: white;
+  margin-bottom: 30px; }
+
+.dev {
+  text-align: center;
+  background-color: #252525;
+  margin: 30px 0 30px 0;
+  padding: 80px 10px 60px 10px;
+  overflow: hidden; }
+  .dev .dev_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(30%); }
+  .dev .language_icons img {
+    width: 60px;
+    margin: 20px 25px 0 25px; }
+
+.photography {
+  text-align: center;
+  background-color: #252525;
+  margin: 30px 0 30px 0;
+  padding: 80px 10px 60px 10px;
+  overflow: hidden; }
+  .photography .camera_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(-30%); }
+  .photography .my_gear img {
+    width: 60px;
+    margin: 0 25px 20px 25px; }
+
+.design {
+  text-align: center;
+  background-color: #252525;
+  margin: 30px 0 30px 0;
+  padding: 80px 10px 60px 10px;
+  overflow: hidden; }
+  .design .design_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(30%); }
+  .design .my_tool_kit img {
+    width: 60px;
+    margin: 0 25px 20px 25px; }
+
+.portfolio_container {
+  padding-top: 80px;
+  text-align: center; }
+  .portfolio_container .portfolio_description {
+    padding: 0 10px 0 10px; }
+    .portfolio_container .portfolio_description h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 1.125rem;
+      color: black;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    .portfolio_container .portfolio_description p {
+      font-family: "Times New Roman", serif;
+      font-size: 1rem;
+      color: black;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+  .portfolio_container .portfolio_wrap {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #252525; }
+    .portfolio_container .portfolio_wrap:nth-child(3) {
+      border-top: solid 1px #ccc; }
+    .portfolio_container .portfolio_wrap:last-child {
+      border-top: solid 1px #ccc; }

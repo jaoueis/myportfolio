@@ -1,0 +1,119 @@
+.offer {
+  text-align: center;
+  background-color: $section_bg;
+  padding: 80px 10px 10px 10px;
+  h3 {
+    font-family: $global_title;
+    font-size: 1.125rem;
+    color: $the_gold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  img {
+    width: 80px;
+  }
+  p {
+    font-family: $global_content;
+    font-size: 1.125rem;
+    color: white;
+    margin: 20px 0 50px 0;
+  }
+}
+
+.services_container {
+  h3 {
+    font-family: $global_title;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: $the_gold;
+    margin-bottom: 40px;
+  }
+  p {
+    font-family: $global_content;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-family: $global_title;
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 30px;
+  }
+}
+
+.dev {
+  @include services_section;
+  .dev_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(30%);
+  }
+  .language_icons img {
+    width: 60px;
+    margin: 20px 25px 0 25px;
+  }
+}
+
+.photography {
+  @include services_section;
+  .camera_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(-30%);
+  }
+  .my_gear img {
+    width: 60px;
+    margin: 0 25px 20px 25px;
+  }
+}
+
+.design {
+  @include services_section;
+  .design_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(30%);
+  }
+  .my_tool_kit img {
+    width: 60px;
+    margin: 0 25px 20px 25px;
+  }
+}
+
+.portfolio_container {
+  padding-top: 80px;
+  text-align: center;
+  .portfolio_description {
+    padding: 0 10px 0 10px;
+    h3 {
+      font-family: $global_title;
+      font-size: 1.125rem;
+      color: black;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: $global_content;
+      font-size: 1rem;
+      color: black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  .portfolio_wrap {
+    width: 100%;
+    padding-top: 100%;
+    background-color: $section_bg;
+    &:nth-child(3) {
+      border-top: solid 1px #ccc;
+    }
+    &:last-child {
+      border-top: solid 1px #ccc;
+    }
+  }
+}
