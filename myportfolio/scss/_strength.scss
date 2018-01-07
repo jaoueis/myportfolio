@@ -7,6 +7,9 @@
     color: black;
     text-transform: uppercase;
     margin-bottom: 30px;
+    @media screen and (min-width: 40rem) {
+      font-size: 1.5rem;
+    }
   }
   p {
     font-family: $global_content;
@@ -14,5 +17,13 @@
     color: black;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+}
+
+.profile_wrap {
+  margin-top: 30px;
+  img {
+    border-radius: 50%;
+    width: 120px;
   }
 }
