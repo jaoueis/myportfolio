@@ -312,3 +312,19 @@
       border-top: solid 1px #ccc; }
     .portfolio_container .portfolio_wrap:last-child {
       border-top: solid 1px #ccc; }
+
+.strength_container {
+  padding: 80px 10px 60px 10px;
+  text-align: center; }
+  .strength_container h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .strength_container p {
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px; }
