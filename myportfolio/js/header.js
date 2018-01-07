@@ -1,9 +1,9 @@
 (function () {
-    var burger     = document.querySelector('.burger_button');
-    var overlay    = document.querySelector('.nav_overlay');
-    var headerBar  = document.querySelector('.header_bar_container');
-    var headerLogo = document.querySelector('#header_logo');
-    var noScroll   = document.querySelector('body');
+    var burger = document.querySelector('.burger_button'),
+        overlay = document.querySelector('.nav_overlay'),
+        headerBar = document.querySelector('.header_bar_container'),
+        headerLogo = document.querySelector('#header_logo'),
+        noScroll = document.querySelector('body');
 
     function toggleClass() {
         burger.classList.toggle('active');

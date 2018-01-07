@@ -1,0 +1,70 @@
+.contact_form_container {
+  padding: 80px 10px 60px 10px;
+  background: $section_bg;
+  h3 {
+    font-family: $global_title;
+    font-size: 1.125rem;
+    color: $the_gold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  label {
+    font-family: $global_content;
+    font-size: 1rem;
+    color: white;
+  }
+  input {
+    background: $section_bg;
+    font-family: $global_content;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    border-left: none;
+    &:focus {
+      background: $section_bg;
+      font-family: $global_content;
+      color: white;
+      border-top: none;
+      border-right: none;
+      border-bottom: 3px solid white;
+      border-left: none;
+      box-shadow: none;
+    }
+  }
+  button{
+    font-family: $global_title;
+    font-size: 1.125rem;
+    color: $the_gold;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+    cursor: pointer;
+    &:hover,
+    &:focus{
+      border-top: none;
+      border-right: none;
+      border-bottom: 3px solid white;
+      border-left: none;
+      padding: 0 6px 3px 6px;
+    }
+  }
+}
+
+.form_element {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.form_label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all .3s ease;
+  &.active {
+    margin-top: -30px;
+  }
+}
