@@ -14,6 +14,10 @@
     @media screen and (min-width: 40rem) {
       font-size: 1.5rem;
     }
+    @media screen and (min-width: 64rem) {
+      font-size: 2rem;
+      margin-bottom: 80px;
+    }
   }
   img {
     width: 80px;
@@ -67,23 +71,38 @@
     width: 60px;
     margin: 20px 25px 0 25px;
   }
-}
-
-.photography {
-  @include services_section;
-  .camera_icon_grey {
-    height: 120px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    transform: translateX(-45%);
-  }
-  .camera {
-    max-width: 420px;
-    max-height: 100%;
-  }
-  .my_gear img {
-    width: 60px;
-    margin: 0 25px 20px 25px;
+  @media screen and (min-width: 64rem) {
+    margin: 0;
+    overflow: visible;
+    h3 {
+      text-align: left;
+      font-size: 2rem;
+    }
+    h4 {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    p {
+      text-align: left;
+    }
+    .section_hr {
+      margin: 0;
+    }
+    .icon_wrap {
+      position: relative;
+      .macbook {
+        position: absolute;
+        top: -240px;
+        left: -520px;
+        max-width: 160%;
+        max-height: 160%;
+      }
+    }
+    .language_icons img {
+      width: 60px;
+      margin: 20px 50px 0 0;
+      float: left;
+    }
   }
 }
 
@@ -102,5 +121,94 @@
   .my_tool_kit img {
     width: 60px;
     margin: 0 25px 20px 25px;
+  }
+  @media screen and (min-width: 64rem) {
+    overflow: visible;
+    h3 {
+      text-align: left;
+      font-size: 2rem;
+    }
+    h4 {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    p {
+      text-align: left;
+    }
+    .section_hr {
+      margin: 0;
+    }
+    .icon_wrap {
+      position: relative;
+      .name_card {
+        position: absolute;
+        top: -300px;
+        right: -350px;
+        max-width: 180%;
+        max-height: 180%;
+      }
+      .design_icon_grey{
+        transform: translateX(-100%);
+      }
+    }
+    .my_tool_kit img {
+      width: 60px;
+      margin: 0 50px 20px 0;
+      float: left;
+    }
+  }
+}
+
+.photography {
+  @include services_section;
+  .camera_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(-45%);
+  }
+  .camera {
+    max-width: 420px;
+    max-height: 100%;
+  }
+  .my_gear img {
+    width: 60px;
+    margin: 0 25px 20px 25px;
+  }
+  @media screen and (min-width: 64rem) {
+    margin: 0 0 120px 0;
+    overflow: visible;
+    h3 {
+      text-align: left;
+      font-size: 2rem;
+    }
+    h4 {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    p {
+      text-align: left;
+    }
+    .section_hr {
+      margin: 0;
+    }
+    .icon_wrap {
+      position: relative;
+      .camera {
+        position: absolute;
+        top: -300px;
+        left: -500px;
+        max-width: 250%;
+        max-height: 250%;
+      }
+      .camera_icon_grey{
+        transform: translateX(50%);
+      }
+    }
+    .my_gear img {
+      width: 60px;
+      margin: 0 50px 20px 0;
+      float: left;
+    }
   }
 }

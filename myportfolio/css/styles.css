@@ -164,6 +164,9 @@
     @media screen and (min-width: 40rem) {
       .header_image_container h2 {
         font-size: 3rem; } }
+    @media screen and (min-width: 90rem) {
+      .header_image_container h2 {
+        font-size: 3.5rem; } }
 
 .scroll-to {
   text-align: center;
@@ -203,6 +206,8 @@
       font-size: 1.125rem;
       font-weight: 700;
       color: black; }
+    .about_container .about_title .section_hr {
+      margin: 30px 0 0 0; }
   .about_container .about_text p {
     font-family: "Times New Roman", serif;
     font-size: 1rem;
@@ -227,6 +232,10 @@
     @media screen and (min-width: 40rem) {
       .offer h3 {
         font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .offer h3 {
+        font-size: 2rem;
+        margin-bottom: 80px; } }
   .offer img {
     width: 80px; }
   .offer p {
@@ -273,24 +282,32 @@
   .dev .language_icons img {
     width: 60px;
     margin: 20px 25px 0 25px; }
-
-.photography {
-  text-align: center;
-  background-color: #252525;
-  margin: 60px 0 60px 0;
-  padding: 80px 10px 80px 10px;
-  overflow: hidden; }
-  .photography .camera_icon_grey {
-    height: 120px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    transform: translateX(-45%); }
-  .photography .camera {
-    max-width: 420px;
-    max-height: 100%; }
-  .photography .my_gear img {
-    width: 60px;
-    margin: 0 25px 20px 25px; }
+  @media screen and (min-width: 64rem) {
+    .dev {
+      margin: 0;
+      overflow: visible; }
+      .dev h3 {
+        text-align: left;
+        font-size: 2rem; }
+      .dev h4 {
+        text-align: left;
+        font-size: 1.5rem; }
+      .dev p {
+        text-align: left; }
+      .dev .section_hr {
+        margin: 0; }
+      .dev .icon_wrap {
+        position: relative; }
+        .dev .icon_wrap .macbook {
+          position: absolute;
+          top: -240px;
+          left: -520px;
+          max-width: 160%;
+          max-height: 160%; }
+      .dev .language_icons img {
+        width: 60px;
+        margin: 20px 50px 0 0;
+        float: left; } }
 
 .design {
   text-align: center;
@@ -309,6 +326,79 @@
   .design .my_tool_kit img {
     width: 60px;
     margin: 0 25px 20px 25px; }
+  @media screen and (min-width: 64rem) {
+    .design {
+      overflow: visible; }
+      .design h3 {
+        text-align: left;
+        font-size: 2rem; }
+      .design h4 {
+        text-align: left;
+        font-size: 1.5rem; }
+      .design p {
+        text-align: left; }
+      .design .section_hr {
+        margin: 0; }
+      .design .icon_wrap {
+        position: relative; }
+        .design .icon_wrap .name_card {
+          position: absolute;
+          top: -300px;
+          right: -350px;
+          max-width: 180%;
+          max-height: 180%; }
+        .design .icon_wrap .design_icon_grey {
+          transform: translateX(-100%); }
+      .design .my_tool_kit img {
+        width: 60px;
+        margin: 0 50px 20px 0;
+        float: left; } }
+
+.photography {
+  text-align: center;
+  background-color: #252525;
+  margin: 60px 0 60px 0;
+  padding: 80px 10px 80px 10px;
+  overflow: hidden; }
+  .photography .camera_icon_grey {
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: translateX(-45%); }
+  .photography .camera {
+    max-width: 420px;
+    max-height: 100%; }
+  .photography .my_gear img {
+    width: 60px;
+    margin: 0 25px 20px 25px; }
+  @media screen and (min-width: 64rem) {
+    .photography {
+      margin: 0 0 120px 0;
+      overflow: visible; }
+      .photography h3 {
+        text-align: left;
+        font-size: 2rem; }
+      .photography h4 {
+        text-align: left;
+        font-size: 1.5rem; }
+      .photography p {
+        text-align: left; }
+      .photography .section_hr {
+        margin: 0; }
+      .photography .icon_wrap {
+        position: relative; }
+        .photography .icon_wrap .camera {
+          position: absolute;
+          top: -300px;
+          left: -500px;
+          max-width: 250%;
+          max-height: 250%; }
+        .photography .icon_wrap .camera_icon_grey {
+          transform: translateX(50%); }
+      .photography .my_gear img {
+        width: 60px;
+        margin: 0 50px 20px 0;
+        float: left; } }
 
 .portfolio_container {
   text-align: center; }
@@ -323,6 +413,9 @@
       @media screen and (min-width: 40rem) {
         .portfolio_container .portfolio_description h2 {
           font-size: 1.5rem; } }
+      @media screen and (min-width: 64rem) {
+        .portfolio_container .portfolio_description h2 {
+          font-size: 2rem; } }
     .portfolio_container .portfolio_description p {
       font-family: "Times New Roman", serif;
       font-size: 1rem;
@@ -345,6 +438,9 @@
     @media screen and (min-width: 40rem) {
       .strength_container h2 {
         font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .strength_container h2 {
+        font-size: 2rem; } }
   .strength_container p {
     font-family: "Times New Roman", serif;
     font-size: 1rem;
@@ -371,6 +467,9 @@
     @media screen and (min-width: 40rem) {
       .contact_form_container h2 {
         font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .contact_form_container h2 {
+        font-size: 2rem; } }
   .contact_form_container label {
     font-family: "Times New Roman", serif;
     font-size: 1rem;
@@ -407,6 +506,9 @@
     @media screen and (min-width: 40rem) {
       .contact_form_container button {
         font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .contact_form_container button {
+        font-size: 2rem; } }
 
 .form_element {
   position: relative;
