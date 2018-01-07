@@ -268,7 +268,7 @@
 .dev {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 60px 0;
+  margin: 60px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .dev .icon_wrap {
@@ -304,6 +304,9 @@
           left: -520px;
           max-width: 160%;
           max-height: 160%; }
+        .dev .icon_wrap .dev_icon_grey {
+          height: 120px;
+          transform: translateX(100%); }
       .dev .language_icons img {
         width: 60px;
         margin: 20px 50px 0 0;
@@ -312,14 +315,14 @@
 .design {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 60px 0;
+  margin: 60px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .design .design_icon_grey {
     height: 120px;
     margin-top: 60px;
     margin-bottom: 60px;
-    transform: translateX(45%); }
+    transform: translateX(-45%); }
   .design .name_card {
     max-width: 520px;
     max-height: 100%; }
@@ -343,7 +346,7 @@
         position: relative; }
         .design .icon_wrap .name_card {
           position: absolute;
-          top: -300px;
+          top: -280px;
           right: -350px;
           max-width: 180%;
           max-height: 180%; }
@@ -357,14 +360,14 @@
 .photography {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 60px 0;
+  margin: 60px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .photography .camera_icon_grey {
     height: 120px;
     margin-top: 60px;
     margin-bottom: 60px;
-    transform: translateX(-45%); }
+    transform: translateX(45%); }
   .photography .camera {
     max-width: 420px;
     max-height: 100%; }
@@ -373,7 +376,7 @@
     margin: 0 25px 20px 25px; }
   @media screen and (min-width: 64rem) {
     .photography {
-      margin: 0 0 120px 0;
+      margin: 60px 0 0 0;
       overflow: visible; }
       .photography h3 {
         text-align: left;
@@ -394,14 +397,15 @@
           max-width: 250%;
           max-height: 250%; }
         .photography .icon_wrap .camera_icon_grey {
-          transform: translateX(50%); }
+          transform: translateX(100%); }
       .photography .my_gear img {
         width: 60px;
         margin: 0 50px 20px 0;
         float: left; } }
 
 .portfolio_container {
-  text-align: center; }
+  text-align: center;
+  margin-top: 60px; }
   .portfolio_container .portfolio_description {
     padding: 0 10px 0 10px; }
     .portfolio_container .portfolio_description h2 {
