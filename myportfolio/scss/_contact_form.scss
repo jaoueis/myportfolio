@@ -36,7 +36,7 @@
   button{
     font-family: $global_title;
     font-size: 1.125rem;
-    color: $the_gold;
+    color: white;
     text-transform: uppercase;
     position: relative;
     left: 50%;
@@ -45,11 +45,7 @@
     cursor: pointer;
     &:hover,
     &:focus{
-      border-top: none;
-      border-right: none;
-      border-bottom: 3px solid white;
-      border-left: none;
-      padding: 0 6px 3px 6px;
+      color: $the_gold;
     }
   }
 }

@@ -225,7 +225,6 @@
 .services_container h3 {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
-  font-weight: 100;
   color: #ddc086;
   margin-bottom: 40px; }
 
@@ -238,7 +237,6 @@
 .services_container h4 {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
-  font-weight: 100;
   color: white;
   margin-bottom: 30px; }
 
@@ -363,7 +361,7 @@
   .contact_form_container button {
     font-family: "Raleway", sans-serif;
     font-size: 1.125rem;
-    color: #ddc086;
+    color: white;
     text-transform: uppercase;
     position: relative;
     left: 50%;
@@ -371,11 +369,7 @@
     transition: all .3s ease;
     cursor: pointer; }
     .contact_form_container button:hover, .contact_form_container button:focus {
-      border-top: none;
-      border-right: none;
-      border-bottom: 3px solid white;
-      border-left: none;
-      padding: 0 6px 3px 6px; }
+      color: #ddc086; }
 
 .form_element {
   position: relative;
@@ -411,5 +405,5 @@
   .copyright p {
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
-    color: #ddc086;
+    color: white;
     text-transform: uppercase; }
