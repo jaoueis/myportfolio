@@ -97,10 +97,6 @@
         max-width: 160%;
         max-height: 160%;
       }
-      .dev_icon_grey {
-        height: 120px;
-        transform: translateX(100%);
-      }
     }
     .language_icons img {
       width: 60px;
@@ -151,9 +147,6 @@
         max-width: 180%;
         max-height: 180%;
       }
-      .design_icon_grey{
-        transform: translateX(-100%);
-      }
     }
     .my_tool_kit img {
       width: 60px;
@@ -180,7 +173,6 @@
     margin: 0 25px 20px 25px;
   }
   @media screen and (min-width: 64rem) {
-    margin: 60px 0 0 0;
     overflow: visible;
     h3 {
       text-align: left;
@@ -200,13 +192,10 @@
       position: relative;
       .camera {
         position: absolute;
-        top: -300px;
-        left: -500px;
-        max-width: 250%;
-        max-height: 250%;
-      }
-      .camera_icon_grey{
-        transform: translateX(100%);
+        top: -400px;
+        left: -450px;
+        max-width: 280%;
+        max-height: 280%;
       }
     }
     .my_gear img {

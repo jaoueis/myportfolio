@@ -268,7 +268,7 @@
 .dev {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .dev .icon_wrap {
@@ -304,9 +304,6 @@
           left: -520px;
           max-width: 160%;
           max-height: 160%; }
-        .dev .icon_wrap .dev_icon_grey {
-          height: 120px;
-          transform: translateX(100%); }
       .dev .language_icons img {
         width: 60px;
         margin: 20px 50px 0 0;
@@ -315,7 +312,7 @@
 .design {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .design .design_icon_grey {
@@ -350,8 +347,6 @@
           right: -350px;
           max-width: 180%;
           max-height: 180%; }
-        .design .icon_wrap .design_icon_grey {
-          transform: translateX(-100%); }
       .design .my_tool_kit img {
         width: 60px;
         margin: 0 50px 20px 0;
@@ -360,7 +355,7 @@
 .photography {
   text-align: center;
   background-color: #252525;
-  margin: 60px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 80px 10px 80px 10px;
   overflow: hidden; }
   .photography .camera_icon_grey {
@@ -376,7 +371,6 @@
     margin: 0 25px 20px 25px; }
   @media screen and (min-width: 64rem) {
     .photography {
-      margin: 60px 0 0 0;
       overflow: visible; }
       .photography h3 {
         text-align: left;
@@ -392,12 +386,10 @@
         position: relative; }
         .photography .icon_wrap .camera {
           position: absolute;
-          top: -300px;
-          left: -500px;
-          max-width: 250%;
-          max-height: 250%; }
-        .photography .icon_wrap .camera_icon_grey {
-          transform: translateX(100%); }
+          top: -400px;
+          left: -450px;
+          max-width: 280%;
+          max-height: 280%; }
       .photography .my_gear img {
         width: 60px;
         margin: 0 50px 20px 0;
