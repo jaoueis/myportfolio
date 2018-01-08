@@ -144,7 +144,7 @@
 .header_image_container {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/DSC_2514-Edit-Edit.jpg");
+  background-image: url("../images/banner_photo.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -178,6 +178,9 @@
     margin-bottom: 0;
     left: 50%;
     transform: rotate(-90deg) translateY(-90%); }
+    @media screen and (min-width: 64rem) {
+      .scroll-to p {
+        font-size: 1rem; } }
   .scroll-to div {
     width: 1px;
     height: 80px;
@@ -294,7 +297,7 @@
     padding: 60px 0 60px 0; }
   .dev .dev_icon_grey {
     height: 120px;
-    transform: translateX(45%); }
+    transform: translateX(50%); }
   .dev .macbook {
     max-width: 420px;
     max-height: 100%; }
@@ -328,7 +331,7 @@
     height: 120px;
     margin-top: 60px;
     margin-bottom: 60px;
-    transform: translateX(-45%); }
+    transform: translateX(-50%); }
   .design .name_card {
     max-width: 520px;
     max-height: 100%; }
@@ -361,7 +364,7 @@
     height: 120px;
     margin-top: 60px;
     margin-bottom: 60px;
-    transform: translateX(45%); }
+    transform: translateX(50%); }
   .photography .camera {
     max-width: 420px;
     max-height: 100%; }

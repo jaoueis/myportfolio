@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 192" style="enable-background:new 0 0 300 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{font-family:'Jaapokki-Regular';}
+	.st2{font-size:100px;}
+	.st3{fill:#FFFFFF;}
+</style>
+<text transform="matrix(1 0 0 1 39.0505 119.4612)" class="st0 st1 st2">PHP</text>
+<g>
+	<rect class="st3" width="300" height="12"/>
+	<rect y="180" class="st3" width="300" height="12"/>
+	<g>
+		<path class="st3" d="M90.2,60.9c11.6,0,21,9.5,21,21.1s-9.4,21-21,21h-8.7v28h-14V60.9H90.2z M90.2,89c3.8,0,7-3.1,7-7
+			s-3.2-7.1-7-7.1h-8.7V89H90.2z"/>
+		<path class="st3" d="M162.1,61h14v70h-14v-29.2h-25.9v29.2h-14V61h14v26.8h25.9V61z"/>
+		<path class="st3" d="M211.5,60.9c11.6,0,21,9.5,21,21.1s-9.4,21-21,21h-8.7v28h-14V60.9H211.5z M211.5,89c3.8,0,7-3.1,7-7
+			s-3.2-7.1-7-7.1h-8.7V89H211.5z"/>
+	</g>
+</g>
+</svg>

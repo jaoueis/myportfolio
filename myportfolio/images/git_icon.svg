@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 192" style="enable-background:new 0 0 300 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{display:none;}
+	.st2{font-family:'Jaapokki-Regular';}
+	.st3{font-size:100px;}
+</style>
+<g>
+	<rect class="st0" width="300" height="12"/>
+	<rect y="180" class="st0" width="300" height="12"/>
+	<g>
+		<path class="st0" d="M102.6,87.8h30.3V131h-14v-7c-8.2,6.5-16.8,8.2-22.1,8.2c-20.1-0.2-36.1-16.3-35.9-36.4
+			C61,75.8,77.3,59.8,97.2,59.8h0.3c8.5,0.1,16.2,3.1,22.3,8l-10.1,9.9c-3.6-2.5-7.8-3.8-12.3-3.9h-0.2c-5.9,0-11.5,2.3-15.7,6.5
+			c-4.2,4.1-6.6,9.7-6.6,15.6c-0.1,5.9,2.2,11.6,6.3,15.8c4.2,4.3,9.8,6.7,15.7,6.7h0.3c5.9,0,11.4-2.3,15.6-6.4c3-2.9,5-6.4,6-10.3
+			h-16.2V87.8z"/>
+		<path class="st0" d="M167.4,74.8V117h7.4v14h-28.9v-14h7.5V74.8h-7.5v-14h28.9v14H167.4z"/>
+		<path class="st0" d="M239.2,60.8v14h-19.4V131h-14V74.8h-19.5v-14H239.2z"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 32.1008 119.4612)" class="st1 st2 st3">GIT</text>
+</svg>
