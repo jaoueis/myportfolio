@@ -42,7 +42,7 @@
       box-shadow: none;
     }
   }
-  button {
+  #submit {
     font-family: $global_title;
     font-size: 1.125rem;
     color: white;
@@ -52,6 +52,7 @@
     transform: translateX(-50%);
     transition: all .3s ease;
     cursor: pointer;
+    border: none;
     &:hover,
     &:focus {
       color: $the_gold;
