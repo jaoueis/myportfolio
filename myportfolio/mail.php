@@ -36,6 +36,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($statement->execute()) {
         print " Hello " . $name . "! your message has been saved!";
     } else {
-        print $mysqli->error; //show mysql error if any
+        print $mysqli->error;
     }
 }
