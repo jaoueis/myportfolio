@@ -27,6 +27,9 @@
     font-size: 1.125rem;
     color: white;
     margin: 10px 0 30px 0;
+    @media screen and (min-width: 64rem) {
+      font-size: 1.25rem;
+    }
   }
 }
 
@@ -52,6 +55,23 @@
     color: white;
     margin-bottom: 30px;
   }
+  @media screen and (min-width: 64rem) {
+    h3 {
+      text-align: left;
+      font-size: 2rem;
+    }
+    h4 {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    p {
+      text-align: left;
+      font-size: 1.25rem;
+    }
+    .section_hr {
+      margin: 0;
+    }
+  }
 }
 
 .dev {
@@ -74,20 +94,6 @@
   @media screen and (min-width: 64rem) {
     margin: 0;
     overflow: visible;
-    h3 {
-      text-align: left;
-      font-size: 2rem;
-    }
-    h4 {
-      text-align: left;
-      font-size: 1.5rem;
-    }
-    p {
-      text-align: left;
-    }
-    .section_hr {
-      margin: 0;
-    }
     .icon_wrap {
       position: relative;
       .macbook {
@@ -124,20 +130,6 @@
   }
   @media screen and (min-width: 64rem) {
     overflow: visible;
-    h3 {
-      text-align: left;
-      font-size: 2rem;
-    }
-    h4 {
-      text-align: left;
-      font-size: 1.5rem;
-    }
-    p {
-      text-align: left;
-    }
-    .section_hr {
-      margin: 0;
-    }
     .icon_wrap {
       position: relative;
       .name_card {
@@ -174,20 +166,6 @@
   }
   @media screen and (min-width: 64rem) {
     overflow: visible;
-    h3 {
-      text-align: left;
-      font-size: 2rem;
-    }
-    h4 {
-      text-align: left;
-      font-size: 1.5rem;
-    }
-    p {
-      text-align: left;
-    }
-    .section_hr {
-      margin: 0;
-    }
     .icon_wrap {
       position: relative;
       .camera {

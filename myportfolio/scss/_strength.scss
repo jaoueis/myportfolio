@@ -20,6 +20,9 @@
     color: black;
     margin-top: 30px;
     margin-bottom: 30px;
+    @media screen and (min-width: 64rem) {
+      font-size: 1.25rem;
+    }
   }
 }
 

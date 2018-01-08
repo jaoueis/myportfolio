@@ -126,18 +126,15 @@
             transform: scaleX(0);
             -webkit-transition: all 0.3s ease-in-out 0s;
             transition: all 0.3s ease-in-out 0s; }
-          .nav_overlay nav ul li a:hover {
+          .nav_overlay nav ul li a:hover, .nav_overlay nav ul li a:focus {
             color: #ddc086; }
-            .nav_overlay nav ul li a:hover:before {
+            .nav_overlay nav ul li a:hover:before, .nav_overlay nav ul li a:focus:before {
               visibility: visible;
               -webkit-transform: scaleX(1);
               transform: scaleX(1); }
-          .nav_overlay nav ul li a:focus {
-            color: #ddc086; }
-            .nav_overlay nav ul li a:focus:before {
-              visibility: visible;
-              -webkit-transform: scaleX(1);
-              transform: scaleX(1); }
+          @media screen and (min-width: 64rem) {
+            .nav_overlay nav ul li a {
+              font-size: 2rem; } }
   .nav_overlay.show_menu {
     right: 0; }
 
@@ -206,6 +203,9 @@
       font-size: 1.125rem;
       font-weight: 700;
       color: black; }
+      @media screen and (min-width: 64rem) {
+        .about_container .about_title h3 {
+          font-size: 1.5rem; } }
     .about_container .about_title .section_hr {
       margin: 30px 0 0 0; }
   .about_container .about_text p {
@@ -215,6 +215,9 @@
     @media screen and (min-width: 40rem) {
       .about_container .about_text p {
         margin: 0; } }
+    @media screen and (min-width: 64rem) {
+      .about_container .about_text p {
+        font-size: 1.25rem; } }
 
 .offer {
   text-align: center;
@@ -243,6 +246,9 @@
     font-size: 1.125rem;
     color: white;
     margin: 10px 0 30px 0; }
+    @media screen and (min-width: 64rem) {
+      .offer p {
+        font-size: 1.25rem; } }
 
 .services_container h3 {
   font-family: "Raleway", sans-serif;
@@ -265,6 +271,19 @@
   color: white;
   margin-bottom: 30px; }
 
+@media screen and (min-width: 64rem) {
+  .services_container h3 {
+    text-align: left;
+    font-size: 2rem; }
+  .services_container h4 {
+    text-align: left;
+    font-size: 1.5rem; }
+  .services_container p {
+    text-align: left;
+    font-size: 1.25rem; }
+  .services_container .section_hr {
+    margin: 0; } }
+
 .dev {
   text-align: center;
   background-color: #252525;
@@ -286,16 +305,6 @@
     .dev {
       margin: 0;
       overflow: visible; }
-      .dev h3 {
-        text-align: left;
-        font-size: 2rem; }
-      .dev h4 {
-        text-align: left;
-        font-size: 1.5rem; }
-      .dev p {
-        text-align: left; }
-      .dev .section_hr {
-        margin: 0; }
       .dev .icon_wrap {
         position: relative; }
         .dev .icon_wrap .macbook {
@@ -329,16 +338,6 @@
   @media screen and (min-width: 64rem) {
     .design {
       overflow: visible; }
-      .design h3 {
-        text-align: left;
-        font-size: 2rem; }
-      .design h4 {
-        text-align: left;
-        font-size: 1.5rem; }
-      .design p {
-        text-align: left; }
-      .design .section_hr {
-        margin: 0; }
       .design .icon_wrap {
         position: relative; }
         .design .icon_wrap .name_card {
@@ -372,16 +371,6 @@
   @media screen and (min-width: 64rem) {
     .photography {
       overflow: visible; }
-      .photography h3 {
-        text-align: left;
-        font-size: 2rem; }
-      .photography h4 {
-        text-align: left;
-        font-size: 1.5rem; }
-      .photography p {
-        text-align: left; }
-      .photography .section_hr {
-        margin: 0; }
       .photography .icon_wrap {
         position: relative; }
         .photography .icon_wrap .camera {
@@ -418,6 +407,9 @@
       color: black;
       margin-top: 30px;
       margin-bottom: 30px; }
+      @media screen and (min-width: 64rem) {
+        .portfolio_container .portfolio_description p {
+          font-size: 1.25rem; } }
   .portfolio_container .portfolio_wrap {
     height: 200px;
     background-color: #252525; }
@@ -443,6 +435,9 @@
     color: black;
     margin-top: 30px;
     margin-bottom: 30px; }
+    @media screen and (min-width: 64rem) {
+      .strength_container p {
+        font-size: 1.25rem; } }
 
 .profile_wrap {
   margin-top: 30px; }
@@ -470,6 +465,9 @@
     font-family: "Times New Roman", serif;
     font-size: 1rem;
     color: white; }
+    @media screen and (min-width: 64rem) {
+      .contact_form_container label {
+        font-size: 1.25rem; } }
   .contact_form_container input {
     background: #252525;
     font-family: "Times New Roman", serif;
@@ -542,3 +540,6 @@
     font-size: 1rem;
     color: white;
     text-transform: uppercase; }
+    @media screen and (min-width: 64rem) {
+      .copyright p {
+        font-size: 1.25rem; } }

@@ -146,14 +146,7 @@
             -webkit-transition: all 0.3s ease-in-out 0s;
             transition: all 0.3s ease-in-out 0s;
           }
-          &:hover {
-            color: $the_gold;
-            &:before {
-              visibility: visible;
-              -webkit-transform: scaleX(1);
-              transform: scaleX(1);
-            }
-          }
+          &:hover,
           &:focus {
             color: $the_gold;
             &:before {
@@ -161,6 +154,9 @@
               -webkit-transform: scaleX(1);
               transform: scaleX(1);
             }
+          }
+          @media screen and (min-width: 64rem) {
+            font-size: 2rem;
           }
         }
       }
