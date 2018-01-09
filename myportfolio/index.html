@@ -15,11 +15,12 @@
 
 <h1 class="hide">S H A N</h1>
 <div class="header_bar_container grid-x">
-    <div class="title_wrap small-4 medium-3 large-2 cell">
-        <p class="fa fa-envelope-o"></p>
+    <div class="title_wrap small-4 medium-3 large-2 cell" data-magellan>
+        <a href="#main_form"><p class="fa fa-envelope-o"></p></a>
     </div>
     <div class="logo_wrap small-4 medium-6 large-8 cell">
-        <img src="images/shan-logo-3.0-name-white.svg" alt="SHAN Logo" id="header_logo">
+        <a href="http://shanjiang.io"><img src="images/shan-logo-3.0-name-white.svg" alt="SHAN Logo"
+                                           id="header_logo"></a>
     </div>
     <div class="burger_button_wrap small-4 medium-3 large-2 cell">
         <div class="burger_button">
@@ -31,26 +32,26 @@
     <div class="nav_overlay">
         <nav>
             <h2 class="hide">Main Nav</h2>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
+            <ul data-magellan>
+                <li><a href="#backToTop" class="de-active">home</a></li>
+                <li><a href="#about" class="de-active">about</a></li>
+                <li><a href="#services" class="de-active">services</a></li>
+                <li><a href="#portfolio" class="de-active">portfolio</a></li>
+                <li><a href="#main_form" class="de-active">contact</a></li>
             </ul>
         </nav>
     </div>
 </div>
 
-<div class="header_image_container grid-x">
+<div class="header_image_container grid-x" id="backToTop" data-magellan-target="backToTop">
     <h2 class="cell">Hello, I'm Shan Jiang.</h2>
-    <div class="scroll-to cell">
-        <p>about</p>
+    <div class="scroll-to cell" data-magellan="">
+        <a href="#about"><p>about</p></a>
         <div></div>
     </div>
 </div>
 
-<div class="about_container grid-x grid-margin-x">
+<div class="about_container grid-x grid-margin-x" id="about" data-magellan-target="about">
     <h2 class="hide">About</h2>
     <section class="about_title small-10 small-offset-1 large-6 large-offset-1 cell">
         <h3>I am a London, Ontario based front-end developer with the passion of web development and graphic
@@ -65,7 +66,7 @@
     </section>
 </div>
 
-<div class="offer grid-x">
+<div class="offer grid-x" id="services" data-magellan-target="services">
     <h2 class="hide">Services</h2>
     <h3 class="small-12 cell">what i offer</h3>
     <div class="small-12 medium-4 cell">
@@ -73,12 +74,12 @@
         <p>development</p>
     </div>
     <div class="small-12 medium-4 cell">
-        <img src="images/camera_icon.svg" alt="Photography">
-        <p>photography</p>
-    </div>
-    <div class="small-12 medium-4 cell">
         <img src="images/design_icon.svg" alt="Design">
         <p>design</p>
+    </div>
+    <div class="small-12 medium-4 cell">
+        <img src="images/camera_icon.svg" alt="Photography">
+        <p>photography</p>
     </div>
 </div>
 
@@ -161,19 +162,43 @@
     </div>
 </div>
 
-<div class="portfolio_container grid-x">
+<div class="portfolio_container grid-x" id="portfolio" data-magellan-target="portfolio">
     <div class="portfolio_description cell medium-10 medium-offset-1">
         <h2>portfolio</h2>
         <div class="section_hr"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis congue justo. In ornare dui at interdum
             placerat. Aliquam aliquam nunc ex, ut tempor ante accumsan sit amet.</p>
     </div>
-    <div class="portfolio_wrap cell medium-4"></div>
-    <div class="portfolio_wrap cell medium-4"></div>
-    <div class="portfolio_wrap cell medium-4"></div>
-    <div class="portfolio_wrap cell medium-4 hide-for-small-only"></div>
-    <div class="portfolio_wrap cell medium-4 hide-for-small-only"></div>
-    <div class="portfolio_wrap cell medium-4 hide-for-small-only"></div>
+    <div class="portfolio_wrap cell medium-6" id="lotr" data-roundaboutindex="0">
+        <div class="portfolio_overlay">
+            <h3>Lord Of The Ring 15th Anniversary</h3>
+        </div>
+    </div>
+    <div class="portfolio_wrap cell medium-6" id="crunican" data-roundaboutindex="1">
+        <div class="portfolio_overlay">
+            <h3>Crunican Website Design</h3>
+        </div>
+    </div>
+    <div class="portfolio_wrap cell medium-6" id="logofolio" data-roundaboutindex="2">
+        <div class="portfolio_overlay">
+            <h3>2016-2017 Logofolio</h3>
+        </div>
+    </div>
+    <div class="portfolio_wrap cell medium-6" id="photo" data-roundaboutindex="3">
+        <div class="portfolio_overlay">
+            <h3>Photo Works</h3>
+        </div>
+    </div>
+    <div class="portfolio_showboard grid-x">
+        <div class="portfolio_close">
+            <span class="fa fa-times"></span>
+        </div>
+        <div class="cell small-8 small-offset-2 large-6 large-offset-3 portfolio_content_wrap">
+            <img src="" alt="" class="portfolio_img">
+            <h4 class="portfolio_title"></h4>
+            <p class="portfolio_content"></p>
+        </div>
+    </div>
 </div>
 
 <div class="strength_container grid-x">
@@ -189,7 +214,7 @@
         eu.</p>
 </div>
 
-<div class="contact_form_container grid-x">
+<div class="contact_form_container grid-x" id="main_form" data-magellan-target="main_form">
     <h2 class="cell">shoot me a message!</h2>
     <form method="POST" action="mail.php" class="cell medium-10 medium-offset-1 large-6 large-offset-3">
         <div class="form_element">
@@ -213,13 +238,16 @@
         <img src="images/shan-logo-3.0-name-white.svg" alt="Logo">
     </div>
     <div class="social_media cell">
-        <img src="images/ins.svg" alt="Instagram">
-        <img src="images/github.svg" alt="GitHub">
-        <img src="images/behance.svg" alt="Behance">
-        <img src="images/linkedin.svg" alt="LinkedIn">
+        <a href="https://www.instagram.com" target="_blank"><img src="images/ins.svg" alt="Instagram"></a>
+        <a href="https://www.github.com" target="_blank"><img src="images/github.svg" alt="GitHub"></a>
+        <a href="https://www.behance.net" target="_blank"><img src="images/behance.svg" alt="Behance"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a>
     </div>
     <div class="copyright cell">
         <p><span class="fa fa-copyright"></span> 2018 Shan Jiang</p>
+    </div>
+    <div class="backToTop_wrap" data-magellan>
+        <a href="#backToTop"><span class="fa fa-angle-up backToTop"></span></a>
     </div>
 </footer>
 
@@ -230,5 +258,7 @@
 <script src="js/app.js"></script>
 <script src="js/header.js"></script>
 <script src="js/form.js"></script>
+<script src="js/portfolioData.js"></script>
+<script src="js/portfolio.js"></script>
 </body>
 </html>

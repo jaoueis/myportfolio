@@ -147,6 +147,7 @@
   background-image: url("../images/banner_photo.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   text-align: center;
   position: relative; }
   .header_image_container h2 {
@@ -389,7 +390,7 @@
 
 .portfolio_container {
   text-align: center;
-  margin-top: 60px; }
+  padding-top: 60px; }
   .portfolio_container .portfolio_description {
     padding: 0 10px 0 10px; }
     .portfolio_container .portfolio_description h2 {
@@ -413,9 +414,113 @@
       @media screen and (min-width: 64rem) {
         .portfolio_container .portfolio_description p {
           font-size: 1.25rem; } }
-  .portfolio_container .portfolio_wrap {
-    height: 200px;
-    background-color: #252525; }
+
+#lotr {
+  background: url("../images/lotr.jpg");
+  position: relative;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer; }
+
+#crunican {
+  background: url("../images/crunican_adrian.jpg");
+  position: relative;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer; }
+
+#logofolio {
+  background: url("../images/crunican.jpg");
+  position: relative;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer; }
+
+#photo {
+  background: url("../images/wave.jpg");
+  position: relative;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer; }
+
+.portfolio_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+  transition: all .3s ease; }
+  .portfolio_overlay h3 {
+    opacity: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    color: #ddc086;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); }
+    @media screen and (min-width: 40rem) {
+      .portfolio_overlay h3 {
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .portfolio_overlay h3 {
+        font-size: 2rem; } }
+  .portfolio_overlay.hide_portfolio_overlay {
+    background-color: rgba(0, 0, 0, 0.8); }
+    .portfolio_overlay.hide_portfolio_overlay h3 {
+      opacity: 1; }
+
+.portfolio_showboard {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 30; }
+  .portfolio_showboard.close_showboard {
+    display: block; }
+  .portfolio_showboard h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    color: #ddc086;
+    text-align: left;
+    margin-top: 30px; }
+    @media screen and (min-width: 40rem) {
+      .portfolio_showboard h4 {
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 64rem) {
+      .portfolio_showboard h4 {
+        font-size: 2rem; } }
+  .portfolio_showboard p {
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    color: white;
+    text-align: left; }
+    @media screen and (min-width: 64rem) {
+      .portfolio_showboard p {
+        font-size: 1.25rem; } }
+
+.portfolio_content_wrap {
+  margin-top: 5%; }
+
+.portfolio_close {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer; }
+  .portfolio_close span {
+    color: white;
+    font-size: 2rem; }
 
 .strength_container {
   padding: 80px 10px 60px 10px;
@@ -547,3 +652,22 @@
     @media screen and (min-width: 64rem) {
       .copyright p {
         font-size: 1.25rem; } }
+
+.backToTop_wrap {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 3; }
+  .backToTop_wrap .backToTop {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 3rem;
+    color: white; }
