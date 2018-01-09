@@ -5,6 +5,7 @@
         portfolioWrap = document.querySelectorAll('.portfolio_wrap'),
         image = document.querySelector('.portfolio_img'),
         title = document.querySelector('.portfolio_title'),
+        noScroll = document.querySelector('body'),
         content = document.querySelector('.portfolio_content');
 
     function hidePortfolioOverlay() {
@@ -17,6 +18,7 @@
 
     function lightbox() {
         showboard.classList.toggle('close_showboard');
+        noScroll.classList.toggle('no-scroll');
     }
 
     function showInfo() {

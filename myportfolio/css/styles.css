@@ -518,9 +518,17 @@
   width: 32px;
   height: 32px;
   cursor: pointer; }
-  .portfolio_close span {
-    color: white;
-    font-size: 2rem; }
+  .portfolio_close div {
+    width: 24px;
+    height: 1px;
+    margin-bottom: 16px;
+    background-color: #ddc086; }
+  .portfolio_close .top {
+    transform: rotate(45deg);
+    transform-origin: left 50%; }
+  .portfolio_close .bot {
+    transform: rotate(-45deg);
+    transform-origin: left 50%; }
 
 .strength_container {
   padding: 80px 10px 60px 10px;

@@ -137,8 +137,18 @@
   width: 32px;
   height: 32px;
   cursor: pointer;
-  span {
-    color: white;
-    font-size: 2rem;
+  div {
+    width: 24px;
+    height: 1px;
+    margin-bottom: 16px;
+    background-color: $the_gold;
+  }
+  .top {
+    transform: rotate(45deg);
+    transform-origin: left 50%;
+  }
+  .bot {
+    transform: rotate(-45deg);
+    transform-origin: left 50%;
   }
 }
