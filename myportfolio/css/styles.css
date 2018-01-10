@@ -416,7 +416,7 @@
           font-size: 1.25rem; } }
 
 #lotr {
-  background: url("../images/lotr.jpg");
+  background: url("../images/lotr_design.jpg");
   position: relative;
   height: 480px;
   background-size: cover;
@@ -424,7 +424,7 @@
   cursor: pointer; }
 
 #crunican {
-  background: url("../images/crunican_adrian.jpg");
+  background: url("../images/crunican_web.jpg");
   position: relative;
   height: 480px;
   background-size: cover;
@@ -648,7 +648,10 @@
   margin-bottom: 50px; }
   .social_media img {
     width: 36px;
-    margin: 0 5px 0 5px; }
+    margin: 0 5px 0 5px;
+    transition: all .3s ease; }
+    .social_media img:hover, .social_media img:focus {
+      opacity: .7; }
 
 .copyright {
   text-align: center; }

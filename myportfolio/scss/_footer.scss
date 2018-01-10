@@ -17,6 +17,11 @@
   img {
     width: 36px;
     margin: 0 5px 0 5px;
+    transition: all .3s ease;
+    &:hover,
+    &:focus {
+      opacity: .7;
+    }
   }
 }
 

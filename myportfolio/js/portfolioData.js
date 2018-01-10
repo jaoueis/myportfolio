@@ -6,7 +6,9 @@ var portfolioData = {
 
         title: 'Lord Of The Ring 15th Anniversary',
 
-        content: 'It’s the turbocharged motoring icon, with more handles to love. The MINI 5 door boasts the same iconic good looks as its 3 door brother, but features an extra pair of passenger doors for practical access to its spacious cabin.'
+        content: 'The website is celebrating the 15th anniversary of The Lord of the Ring. \n' +
+        'This website was built by foundation 6. This is the first fully responsive site I built. From design to development, it was all made by myself. \n' +
+        'Please view the website <a href="https://jaoueis.github.io/shanjiang/" target="_blank">here</a>. \n'
     },
 
     crunican: {
@@ -16,7 +18,7 @@ var portfolioData = {
 
         title: 'Crunican Web Design',
 
-        content: 'A true style icon – reimagined for contemporary living. Paying tribute to the original 1959 Austin Seven, the MINI Seven Edition brings together our most distinctive elements into one model.'
+        content: 'The website rebranding was designed by Adrian Zhao, Xin Jin, and me. Before we started the project, we did a lot of research on local business that have ecommerce services. Based on the research, we designed the website that has the wonderful UI/UX for online store. \n'
     },
 
     logofolio: {
@@ -26,7 +28,7 @@ var portfolioData = {
 
         title: '2016-2017 Logofolio',
 
-        content: 'It’s almost time to re-discover the redesigned, re-engineered, and completely revamped MINI Convertible.'
+        content: 'These logos were designed in the past year. \n'
     },
 
     photo: {
@@ -36,6 +38,6 @@ var portfolioData = {
 
         title: 'Photo Works',
 
-        content: 'It’s almost time to re-discover the redesigned, re-engineered, and completely revamped MINI Convertible.'
+        content: 'This photo work showcase consists portrait, landscape, and travel shoot.'
     }
 };
