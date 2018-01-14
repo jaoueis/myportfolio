@@ -5,6 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mysql_password = "%S?MVb;1.D12";
     $mysql_database = "shanricy_db_visitors";
     $port           = "3306";
+    $to             = "jiang_shan@live.com";
 
     $name    = $_POST['user_name'];
     $email   = $_POST['user_email'];
@@ -32,6 +33,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($statement->execute()) {
         print " Hello " . $name . "! Your message has been received! I will contact you very soon. " . "<a href='http://shanjiang.io'><button>Back to home page</button></a>";
+        $subject = "From" . $name;
+        $content = $name . " has left you a message, saying " . $message . ". Please get back to " . $name . " by email on " . $email . ".";
+        mail($to, $name, $content);
     } else {
         print $mysqli->error;
     }
