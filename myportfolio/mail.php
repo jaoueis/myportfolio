@@ -1,10 +1,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mysql_host     = "localhost";
-    $mysql_username = "root";
-    $mysql_password = "root";
-    $mysql_database = "db_visitors";
-    $port           = "8889";
+    $mysql_username = "shanricy_admin";
+    $mysql_password = "%S?MVb;1.D12";
+    $mysql_database = "shanricy_db_visitors";
+    $port           = "3306";
 
     $name    = $_POST['user_name'];
     $email   = $_POST['user_email'];
