@@ -21,9 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Please enter text");
     }
 
-    print "Hello " . $name . "! I have received your message and email " . $email . ".";
-    print " I will contact you very soon!";
-
     $mysqli = new mysqli($mysql_host, $mysql_username, $mysql_password, $mysql_database, $port);
 
     if ($mysqli->connect_error) {
@@ -34,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $statement->bind_param('sss', $name, $email, $message);
 
     if ($statement->execute()) {
-        print " Hello " . $name . "! your message has been saved!";
+        print " Hello " . $name . "! Your message has been received! I will contact you very soon. " . "<a href='http://shanjiang.io'><button>Back to home page</button></a>";
     } else {
         print $mysqli->error;
     }
