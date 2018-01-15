@@ -680,4 +680,7 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     font-size: 3rem;
-    color: white; }
+    color: white;
+    transition: all .3s ease; }
+  .backToTop_wrap:hover .backToTop, .backToTop_wrap:focus .backToTop {
+    color: #ddc086; }
