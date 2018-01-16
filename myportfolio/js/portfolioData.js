@@ -38,6 +38,6 @@ var portfolioData = {
 
         title: 'Photo Works',
 
-        content: 'This photo work showcase consists portrait, landscape, and travel shoot.'
+        content: 'This photo work showcase consists portrait, landscape, and travel shoot. You can view more of my photo works on <a href="https://500px.com/shanjiang" target="_blank">500px</a>.'
     }
 };
