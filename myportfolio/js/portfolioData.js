@@ -6,9 +6,7 @@ var portfolioData = {
 
         title: 'Lord Of The Ring 15th Anniversary',
 
-        content: 'The website is celebrating the 15th anniversary of The Lord of the Ring. \n' +
-        'This website was built by foundation 6. This is the first fully responsive site I built. From design to development, it was all made by myself. \n' +
-        'Please view the website <a href="https://jaoueis.github.io/shanjiang/" target="_blank">here</a>. \n'
+        content: 'The website is celebrating the 15th anniversary of The Lord of the Ring. This website was built by foundation 6. This is the first fully responsive site I built. From design to development, it was all made by myself. Please view the website <a href="https://jaoueis.github.io/shanjiang/" target="_blank">here</a>.'
     },
 
     crunican: {
@@ -18,7 +16,7 @@ var portfolioData = {
 
         title: 'Crunican Web Design',
 
-        content: 'The website rebranding was designed by Adrian Zhao, Xin Jin, and me. Before we started the project, we did a lot of research on local business that have ecommerce services. Based on the research, we designed the website that has the wonderful UI/UX for online store. \n'
+        content: 'The website rebranding was designed by Adrian Zhao, Xin Jin, and me. Before we started the project, we did lots of research on local business that have ecommerce services. Based on the research, we designed the website that has the wonderful UI/UX for online store.'
     },
 
     logofolio: {
@@ -28,7 +26,7 @@ var portfolioData = {
 
         title: '2016-2017 Logofolio',
 
-        content: 'These logos were designed in the past year. \n'
+        content: 'These logos were designed in the past year. Please view more of my design works on <a href="https://www.behance.net/jiang_shanc2db" target="_blank">Behance</a>.'
     },
 
     photo: {
@@ -38,6 +36,6 @@ var portfolioData = {
 
         title: 'Photo Works',
 
-        content: 'This photo work showcase consists portrait, landscape, and travel shoot. You can view more of my photo works on <a href="https://500px.com/shanjiang" target="_blank">500px</a>.'
+        content: 'This photo work showcase consists portrait, landscape, and travel shots. You can view more of my photo work on <a href="https://500px.com/shanjiang" target="_blank">500px</a>.'
     }
 };
