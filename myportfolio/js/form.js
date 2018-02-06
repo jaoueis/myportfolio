@@ -13,5 +13,5 @@
     });
     input.forEach(function (eachInput) {
         eachInput.addEventListener('blur', labelMove, false);
-    })
+    });
 })();

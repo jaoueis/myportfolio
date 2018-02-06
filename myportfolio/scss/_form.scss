@@ -1,82 +1,82 @@
 .contact_form_container {
-  padding: 80px 10px 60px 10px;
-  background: $section_bg;
-  h2 {
-    font-family: $global_title;
-    font-size: 1.125rem;
-    color: $the_gold;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    text-align: center;
-    @media screen and (min-width: 40rem) {
-      font-size: 1.5rem;
-    }
-    @media screen and (min-width: 64rem) {
-      font-size: 2rem;
-    }
-  }
-  label {
-    font-family: $global_content;
-    font-size: 1rem;
-    color: white;
-    @media screen and (min-width: 64rem) {
-      font-size: 1.25rem;
-    }
-  }
-  input {
+    padding: 80px 10px 60px 10px;
     background: $section_bg;
-    font-family: $global_content;
-    color: white;
-    border-top: none;
-    border-right: none;
-    border-bottom: 3px solid white;
-    border-left: none;
-    &:focus {
-      background: $section_bg;
-      font-family: $global_content;
-      color: white;
-      border-top: none;
-      border-right: none;
-      border-bottom: 3px solid white;
-      border-left: none;
-      box-shadow: none;
+    h2 {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: $the_gold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: center;
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2rem;
+        }
     }
-  }
-  #submit {
-    font-family: $global_title;
-    font-size: 1.125rem;
-    color: white;
-    text-transform: uppercase;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: all .3s ease;
-    cursor: pointer;
-    border: none;
-    &:hover,
-    &:focus {
-      color: $the_gold;
+    label {
+        font-family: $global_content;
+        font-size: 1rem;
+        color: white;
+        @media screen and (min-width: 64rem) {
+            font-size: 1.25rem;
+        }
     }
-    @media screen and (min-width: 40rem) {
-      font-size: 1.5rem;
+    input {
+        background: $section_bg;
+        font-family: $global_content;
+        color: white;
+        border-top: none;
+        border-right: none;
+        border-bottom: 3px solid white;
+        border-left: none;
+        &:focus {
+            background: $section_bg;
+            font-family: $global_content;
+            color: white;
+            border-top: none;
+            border-right: none;
+            border-bottom: 3px solid white;
+            border-left: none;
+            box-shadow: none;
+        }
     }
-    @media screen and (min-width: 64rem) {
-      font-size: 2rem;
+    #submit {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .3s ease;
+        cursor: pointer;
+        border: none;
+        &:hover,
+        &:focus {
+            color: $the_gold;
+        }
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2rem;
+        }
     }
-  }
 }
 
 .form_element {
-  position: relative;
-  margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .form_label {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all .3s ease;
-  &.active {
-    margin-top: -30px;
-  }
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease;
+    &.active {
+        margin-top: -30px;
+    }
 }
