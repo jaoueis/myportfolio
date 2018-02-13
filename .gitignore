@@ -1,2 +1,43 @@
-.idea
+# OS generated files #
+######################
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+######################
+*.sublime-project
+*.sublime-workspace
+
+# wpengine specific
+######################
+.smushit-status
+/_wpeprivate
+
+# wordpress files #
+######################
+/*
+!.gitignore
+!.gitlab-ci.yml
+!wp-content
+wp-content/*
+!wp-content/themes/
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/uploads/*
+
+# vagrant #
+!/Vagrantfile
+!/puppet
+!/deploy
+
+# readme #
+!README.md
+
+# Git FTP files #
+!.git-ftp-ignore
+!.git-ftp-include
