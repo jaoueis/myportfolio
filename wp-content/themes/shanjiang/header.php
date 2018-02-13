@@ -5,11 +5,6 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-//TODO:move the following to enqueue functions
-<link href="//fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/foundation.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/app.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/styles.css">
 <?php wp_head();?>
 </head>
 <body <?php body_class(); ?>>
