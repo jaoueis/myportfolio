@@ -14,6 +14,12 @@ add_theme_support(
     )
 );
 
+register_nav_menus(
+    array(
+        'main-menu'       => 'Main Menu',
+    )
+);
+
 
 add_action('wp_enqueue_scripts', 'shanjiang_load_scripts');
 
