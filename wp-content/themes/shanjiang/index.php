@@ -1,5 +1,4 @@
-
-<?php get_header();?>
+<?php get_header(); ?>
 <div class="about_container grid-x grid-margin-x" id="about" data-magellan-target="about">
     <h2 class="hide">About</h2>
     <section class="about_title small-10 small-offset-1 large-6 large-offset-1 cell">
@@ -7,7 +6,10 @@
         <div class="section_hr show-for-large"></div>
     </section>
     <section class="about_text small-10 small-offset-1 large-4 large-offset-0 cell">
-        <p>I am currently an interactive media design student at Fanshawe College, and I have a degree in Management and Organizational Studies from the University of Western University. This diverse educational background has allowed me to leverage skills from a variety of different disciplines. I am skilled in development, design, and professional photography. I am currently using these skills for an intership at Northern Commerce.</p>
+        <p>I am currently an interactive media design student at Fanshawe College, and I have a degree in Management and
+            Organizational Studies from the University of Western University. This diverse educational background has
+            allowed me to leverage skills from a variety of different disciplines. I am skilled in development, design,
+            and professional photography. I am currently using these skills for an intership at Northern Commerce.</p>
     </section>
 </div>
 
@@ -32,7 +34,11 @@
     <div class="cell large-4 show-for-large"></div>
     <div class="dev grid-x cell large-8">
         <h3 class="cell large-6 large-offset-5">Development</h3>
-        <p class="cell medium-10 medium-offset-1 large-6 large-offset-5">I find website development both fun and challenging. I always plan ahead and ask myself important questions that will organize my overall coding process. Deciding what website framework I will use, what kind of development dependencies are necessary, and what logic structure the back-end will need. All these steps are important in my process of web development.</p>
+        <p class="cell medium-10 medium-offset-1 large-6 large-offset-5">I find website development both fun and
+            challenging. I always plan ahead and ask myself important questions that will organize my overall coding
+            process. Deciding what website framework I will use, what kind of development dependencies are necessary,
+            and what logic structure the back-end will need. All these steps are important in my process of web
+            development.</p>
         <div class="cell large-6 large-offset-5">
             <div class="section_hr"></div>
         </div>
@@ -54,7 +60,10 @@
     </div>
     <div class="design grid-x cell large-8">
         <h3 class="cell large-10 large-offset-2">Design</h3>
-        <p class="cell medium-10 medium-offset-1 large-6 large-offset-2">The most important part of design is understanding what the client envisions for their brand. I always look to communicate design goals with the client by working through examples, and understanding their preferences. Once the client and I are on the same page, I will create a variety of different designs that they can choose from.</p>
+        <p class="cell medium-10 medium-offset-1 large-6 large-offset-2">The most important part of design is
+            understanding what the client envisions for their brand. I always look to communicate design goals with the
+            client by working through examples, and understanding their preferences. Once the client and I are on the
+            same page, I will create a variety of different designs that they can choose from.</p>
         <div class="cell large-10 large-offset-2">
             <div class="section_hr"></div>
         </div>
@@ -75,7 +84,10 @@
     <div class="cell large-4 show-for-large"></div>
     <div class="photography grid-x cell large-8">
         <h3 class="cell large-6 large-offset-5">Photography</h3>
-        <p class="cell medium-10 medium-offset-1 large-6 large-offset-5">Five-years of photography experience has helped me develop a sharp eye for capturing the most beautiful moments. Whether it is an event shoot, wedding shoot, or a portrait shoot, I always find the best angle, light, and moment to create a stunning shot. These shots are always edited and uploaded punctually, while maintaining their quality.</p>
+        <p class="cell medium-10 medium-offset-1 large-6 large-offset-5">Five-years of photography experience has helped
+            me develop a sharp eye for capturing the most beautiful moments. Whether it is an event shoot, wedding
+            shoot, or a portrait shoot, I always find the best angle, light, and moment to create a stunning shot. These
+            shots are always edited and uploaded punctually, while maintaining their quality.</p>
         <div class="cell large-6 large-offset-5">
             <div class="section_hr"></div>
         </div>
@@ -86,7 +98,9 @@
         <h4 class="cell large-10 large-offset-2">My gear</h4>
         <div class="my_gear cell medium-10 medium-offset-1 large-9 large-offset-2">
             <img src="images/lr_icon.svg" alt="Lightroom">
-            <p>Canon 5D Mark III and Adobe Lightroom are my best photography friends. I also have a 16mm-35mm wide angle lens, a 50 mm portrait lens, and a 24-105mm variable zoom lens. These 3 lenses are perfect for landscape, portrait, and event shots.</p>
+            <p>Canon 5D Mark III and Adobe Lightroom are my best photography friends. I also have a 16mm-35mm wide angle
+                lens, a 50 mm portrait lens, and a 24-105mm variable zoom lens. These 3 lenses are perfect for
+                landscape, portrait, and event shots.</p>
         </div>
     </div>
 </div>
@@ -95,7 +109,8 @@
     <div class="portfolio_description cell medium-10 medium-offset-1">
         <h2>portfolio</h2>
         <div class="section_hr"></div>
-        <p>I have worked with a variety of different clients. Below is my recent development, design, and photography works.</p>
+        <p>I have worked with a variety of different clients. Below is my recent development, design, and photography
+            works.</p>
     </div>
     <div class="portfolio_wrap cell medium-6" id="lotr" data-roundaboutindex="0">
         <div class="portfolio_overlay">
@@ -136,7 +151,11 @@
     <div class="profile_wrap cell">
         <img src="images/profile.jpg" alt="Profile Photo">
     </div>
-    <p class="cell medium-10 medium-offset-1">I was raised in China and influenced by many Asian cultures. My unique nationality allows me to draw influence from a variety of Asian cultures. I have also achieved a degree and diploma. My educational and cultural experiences have given me excellent learning skills. I learn fast, have a unique perspective, and am diligent in my work. I am a digital triple threat. I can shoot photos, develop, and design. If you’re looking for someone well-rounded, and easy to work with, shoot me a message!</p>
+    <p class="cell medium-10 medium-offset-1">I was raised in China and influenced by many Asian cultures. My unique
+        nationality allows me to draw influence from a variety of Asian cultures. I have also achieved a degree and
+        diploma. My educational and cultural experiences have given me excellent learning skills. I learn fast, have a
+        unique perspective, and am diligent in my work. I am a digital triple threat. I can shoot photos, develop, and
+        design. If you’re looking for someone well-rounded, and easy to work with, shoot me a message!</p>
 </div>
 
 <div class="contact_form_container grid-x" id="main_form" data-magellan-target="main_form">
@@ -178,14 +197,5 @@
     </div>
 </footer>
 
-<script src="//use.fontawesome.com/372ea690b0.js"></script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/app.js"></script>
-<script src="js/header.js"></script>
-<script src="js/form.js"></script>
-<script src="js/portfolioData.js"></script>
-<script src="js/portfolio.js"></script>
 </body>
 </html>
