@@ -17,11 +17,11 @@
         if (window.pageYOffset > 100) {
             backToTop.style.opacity = 1;
             headerBar.classList.add('shrink');
-            headerLogo.src = 'images/shan-logo-3.0-name-black.svg';
+            headerLogo.src = headerLogo.getAttribute('data-src-black');
         } else {
             backToTop.style.opacity = 0;
             headerBar.classList.remove('shrink');
-            headerLogo.src = 'images/shan-logo-3.0-name-white.svg';
+            headerLogo.src = headerLogo.getAttribute('data-src-white');
         }
     }
 

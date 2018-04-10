@@ -15,7 +15,7 @@
     </div>
     <div class="logo_wrap small-4 medium-6 large-8 cell">
         <a href="http://shanjiang.io">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/shan-logo-3.0-name-white.svg" alt="Shan Logo" id="header_logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/shan-logo-3.0-name-white.svg" alt="Shan Logo" id="header_logo" data-src-black="<?php echo get_template_directory_uri(); ?>/images/shan-logo-3.0-name-black.svg" data-src-white="<?php echo get_template_directory_uri(); ?>/images/shan-logo-3.0-name-white.svg">
         </a>
     </div>
     <div class="burger_button_wrap small-4 medium-3 large-2 cell">

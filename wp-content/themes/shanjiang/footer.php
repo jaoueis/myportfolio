@@ -15,3 +15,8 @@
         <a href="#backToTop"><span class="fa fa-angle-up backToTop"></span></a>
     </div>
 </footer>
+
+<?php wp_footer(); ?>
+
+</body>
+</html>
