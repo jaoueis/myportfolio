@@ -1,20 +1,11 @@
 <?php get_header(); ?>
 
-<?php get_template_part('template-parts/banner', 'none'); ?>
-
-<div class="about_container grid-x grid-margin-x" id="about" data-magellan-target="about">
-    <h2 class="hide">About</h2>
-    <section class="about_title small-10 small-offset-1 large-6 large-offset-1 cell">
-        <h3>I am a London, Ontario based front-end developer with a passion for web development and graphic design.</h3>
-        <div class="section_hr show-for-large"></div>
-    </section>
-    <section class="about_text small-10 small-offset-1 large-4 large-offset-0 cell">
-        <p>I am currently an interactive media design student at Fanshawe College, and I have a degree in Management and
-            Organizational Studies from the University of Western University. This diverse educational background has
-            allowed me to leverage skills from a variety of different disciplines. I am skilled in development, design,
-            and professional photography. I am currently using these skills for an intership at Northern Commerce.</p>
-    </section>
-</div>
+<?php get_template_part('template-parts/banner/banner', 'none'); ?>
+<?php get_template_part('template-parts/content/content', 'about'); ?>
+<?php get_template_part('template-parts/content/content', 'services'); ?>
+<?php get_template_part('template-parts/content/content', 'services-details'); ?>
+<?php get_template_part('template-parts/content/content', 'strength'); ?>
+<?php get_template_part('template-parts/content/content', 'contact'); ?>
 
 <div class="offer grid-x" id="services" data-magellan-target="services">
     <h2 class="hide">Services</h2>
