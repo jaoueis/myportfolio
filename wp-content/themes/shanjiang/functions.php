@@ -77,6 +77,7 @@ function casestudy_posttype() {
         'exclude_from_search' => false,
         'publicly_queryable'  => true,
         'capability_type'     => 'page',
+        'menu-icon'           => 'dashicons-align-left',
     );
 
     // Registering your Custom Post Type
