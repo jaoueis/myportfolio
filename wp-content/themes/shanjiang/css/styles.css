@@ -418,19 +418,8 @@
   position: relative;
   height: 480px;
   background-size: cover;
-  background-position: center; }
-
-#lotr {
-  background: url("../images/lotr_design.jpg"); }
-
-#crunican {
-  background: url("../images/crunican_web.jpg"); }
-
-#logofolio {
-  background: url("../images/the_north_studio.jpg"); }
-
-#photo {
-  background: url("../images/wave.jpg"); }
+  background-position: center;
+  cursor: pointer; }
 
 .portfolio_overlay {
   position: absolute;
