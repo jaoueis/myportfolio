@@ -8,7 +8,7 @@
 <?php
 
 // The Query
-$query = new WP_Query(array('author' => 'admin'));
+$query = new WP_Query(array('post_type' => 'portfolio'));
 
 // The Loop
 if ($query->have_posts()) {
