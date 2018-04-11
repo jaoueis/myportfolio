@@ -27,7 +27,7 @@ function shanjiang_load_scripts() {
     wp_enqueue_style('foundation', get_template_directory_uri() . '/css/foundation.css');
     wp_enqueue_style('foundation-app', get_template_directory_uri() . '/css/app.css');
     wp_enqueue_style('site-styles', get_template_directory_uri() . '/css/styles.css', array('foundation', 'foundation-app'));
-
+    
     wp_enqueue_script('font-awesome', '//use.fontawesome.com/372ea690b0.js');
     wp_enqueue_script('what-input', get_template_directory_uri() . '/js/vendor/what-input.js');
     wp_enqueue_script('foundation', get_template_directory_uri() . '/js/vendor/foundation.js', array('jquery'));
