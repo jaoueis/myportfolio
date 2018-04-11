@@ -414,37 +414,24 @@
         .portfolio_container .portfolio_description p {
           font-size: 1.25rem; } }
 
-#lotr {
-  background: url("../images/lotr_design.jpg");
+.portfolio_wrap {
   position: relative;
   height: 480px;
   background-size: cover;
   background-position: center;
   cursor: pointer; }
+
+#lotr {
+  background: url("../images/lotr_design.jpg"); }
 
 #crunican {
-  background: url("../images/crunican_web.jpg");
-  position: relative;
-  height: 480px;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer; }
+  background: url("../images/crunican_web.jpg"); }
 
 #logofolio {
-  background: url("../images/the_north_studio.jpg");
-  position: relative;
-  height: 480px;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer; }
+  background: url("../images/the_north_studio.jpg"); }
 
 #photo {
-  background: url("../images/wave.jpg");
-  position: relative;
-  height: 480px;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer; }
+  background: url("../images/wave.jpg"); }
 
 .portfolio_overlay {
   position: absolute;
@@ -488,7 +475,7 @@
     display: block; }
   .portfolio_showboard h4 {
     font-family: "Raleway", sans-serif;
-    font-size: 1.125remF;
+    font-size: 1.125 remF;
     color: #ddc086;
     text-align: left;
     margin-top: 30px; }
