@@ -418,8 +418,7 @@
   position: relative;
   height: 480px;
   background-size: cover;
-  background-position: center;
-  cursor: pointer; }
+  background-position: center; }
 
 #lotr {
   background: url("../images/lotr_design.jpg"); }
