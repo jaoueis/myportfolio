@@ -14,5 +14,5 @@
         <h2>this is subtitle</h2>
         <p>this is description</p>
     </div>
-    <?php the_content(); ?>
+
 </section>
