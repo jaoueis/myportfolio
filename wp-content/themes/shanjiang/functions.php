@@ -16,7 +16,7 @@ add_theme_support(
 
 register_nav_menus(
     array(
-        'main-menu' => 'Main Men',
+        'main-menu' => 'Main Menu',
     )
 );
 
