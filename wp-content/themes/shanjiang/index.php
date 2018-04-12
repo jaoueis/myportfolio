@@ -17,7 +17,7 @@ if ($query->have_posts()) {
     while ($query->have_posts()) {
         $query->the_post();
         $thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');
-        echo '<div class="portfolio_wrap cell medium-6" style="background-image: url(' . $thumb[0] . ')"><div class="portfolio_overlay"><h3>' . get_the_title() . '</h3></div></div>';
+        echo '<a href="' . the_permalink() . '" target="_blank"><div class="portfolio_wrap cell medium-6" style="background-image: url(' . $thumb[0] . ')"><div class="portfolio_overlay"><h3>' . get_the_title() . '</h3></div></div></a>';
     }
     echo '</div>';
 
