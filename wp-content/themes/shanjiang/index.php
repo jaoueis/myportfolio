@@ -16,7 +16,8 @@ if ($query->have_posts()) {
     echo '<div class="portfolio_description cell medium-10 medium-offset-1"><h2>portfolio</h2><div class="section_hr"></div><p>I have worked with a variety of different clients. Below is my recent development, design, and photography works.</p></div>';
     while ($query->have_posts()) {
         $query->the_post();
-        echo '<div class="portfolio_wrap cell medium-6"><div class="portfolio_overlay"><h3>' . get_the_title() . '</h3></div></div>';
+        $thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');
+        echo '<div class="portfolio_wrap cell medium-6" style="background-image: url(' . $thumb[0] . ')"><div class="portfolio_overlay"><h3>' . get_the_title() . '</h3></div></div>';
     }
     echo '</div>';
 
