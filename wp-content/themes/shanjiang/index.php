@@ -8,7 +8,7 @@
 <?php
 
 // The Query
-$query = new WP_Query(array('post_type' => 'portfolio'));
+$query = new WP_Query(array('post_type' => 'portfolio', 'posts_per_page' => 10));
 
 // The Loop
 if ($query->have_posts()) {
