@@ -722,7 +722,11 @@
       width: 560px; } }
 
 .portfolio-post-desc-wrap {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding: 0 15px; }
+  @media screen and (min-width: 40rem) {
+    .portfolio-post-desc-wrap {
+      padding: 0; } }
   .portfolio-post-desc-wrap h2 {
     font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
