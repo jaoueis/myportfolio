@@ -1,0 +1,185 @@
+.offer {
+    text-align: center;
+    background-color: $section_bg;
+    padding: 80px 10px 60px 10px;
+    @media screen and (min-width: 40rem) {
+        padding: 120px 10px 120px 10px;
+    }
+    h3 {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: $the_gold;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2rem;
+            margin-bottom: 80px;
+        }
+    }
+    img {
+        width: 80px;
+    }
+    p {
+        font-family: $global_content;
+        font-size: 1.125rem;
+        color: white;
+        margin: 10px 0 30px 0;
+        @media screen and (min-width: 64rem) {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.services_container {
+    h3 {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: $the_gold;
+        margin-bottom: 40px;
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+    }
+    p {
+        font-family: $global_content;
+        font-size: 1rem;
+        color: white;
+        margin-bottom: 30px;
+    }
+    h4 {
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: white;
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 64rem) {
+        h3 {
+            text-align: left;
+            font-size: 2rem;
+        }
+        h4 {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        p {
+            text-align: left;
+            font-size: 1.25rem;
+        }
+        .section_hr {
+            margin: 0;
+        }
+    }
+}
+
+.dev {
+    @include services_section;
+    .icon_wrap {
+        padding: 60px 0 60px 0;
+    }
+    .dev_icon_grey {
+        height: 120px;
+        transform: translateX(50%);
+    }
+    .macbook {
+        max-width: 420px;
+        max-height: 100%;
+    }
+    .language_icons img {
+        width: 60px;
+        margin: 20px 25px 0 25px;
+    }
+    @media screen and (min-width: 64rem) {
+        margin: 0;
+        overflow: visible;
+        .icon_wrap {
+            position: relative;
+            .macbook {
+                position: absolute;
+                top: -240px;
+                left: -520px;
+                max-width: 160%;
+                max-height: 160%;
+            }
+        }
+        .language_icons img {
+            width: 60px;
+            margin: 20px 50px 0 0;
+            float: left;
+        }
+    }
+}
+
+.design {
+    @include services_section;
+    .design_icon_grey {
+        height: 120px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        transform: translateX(-50%);
+    }
+    .name_card {
+        max-width: 520px;
+        max-height: 100%;
+    }
+    .my_tool_kit img {
+        width: 60px;
+        margin: 0 25px 20px 25px;
+    }
+    @media screen and (min-width: 64rem) {
+        overflow: visible;
+        .icon_wrap {
+            position: relative;
+            .name_card {
+                position: absolute;
+                top: -280px;
+                right: -350px;
+                max-width: 180%;
+                max-height: 180%;
+            }
+        }
+        .my_tool_kit img {
+            width: 60px;
+            margin: 0 50px 20px 0;
+            float: left;
+        }
+    }
+}
+
+.photography {
+    @include services_section;
+    .camera_icon_grey {
+        height: 120px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        transform: translateX(50%);
+    }
+    .camera {
+        max-width: 420px;
+        max-height: 100%;
+    }
+    .my_gear img {
+        width: 60px;
+        margin: 0 25px 20px 25px;
+    }
+    @media screen and (min-width: 64rem) {
+        overflow: visible;
+        .icon_wrap {
+            position: relative;
+            .camera {
+                position: absolute;
+                top: -400px;
+                left: -450px;
+                max-width: 280%;
+                max-height: 280%;
+            }
+        }
+        .my_gear img {
+            width: 60px;
+            margin: 0 50px 20px 0;
+            float: left;
+        }
+    }
+}

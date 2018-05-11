@@ -1,0 +1,134 @@
+.portfolio_container {
+    text-align: center;
+    padding-top: 60px;
+    .portfolio_description {
+        padding: 0 10px 0 10px;
+        h2 {
+            font-family: $global_title;
+            font-size: 1.125rem;
+            color: black;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            @media screen and (min-width: 40rem) {
+                font-size: 1.5rem;
+            }
+            @media screen and (min-width: 64rem) {
+                font-size: 2rem;
+            }
+        }
+        p {
+            font-family: $global_content;
+            font-size: 1rem;
+            color: black;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            @media screen and (min-width: 64rem) {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+.portfolio_wrap {
+    position: relative;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.portfolio_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    transition: all .3s ease;
+    h3 {
+        opacity: 0;
+        font-family: $global_title;
+        font-size: 1.125rem;
+        color: $the_gold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2rem;
+        }
+    }
+    &.hide_portfolio_overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+        h3 {
+            opacity: 1;
+        }
+    }
+}
+
+.portfolio_showboard {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .95);
+    z-index: 30;
+    &.close_showboard {
+        display: block;
+    }
+    h4 {
+        font-family: $global_title;
+        font-size: 1.125 remF;
+        color: $the_gold;
+        text-align: left;
+        margin-top: 30px;
+        @media screen and (min-width: 40rem) {
+            font-size: 1.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2rem;
+        }
+    }
+    p {
+        font-family: $global_content;
+        font-size: 1rem;
+        color: white;
+        text-align: left;
+        @media screen and (min-width: 64rem) {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.portfolio_content_wrap {
+    margin-top: 5%;
+}
+
+.portfolio_close {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    div {
+        width: 24px;
+        height: 1px;
+        margin-bottom: 16px;
+        background-color: $the_gold;
+    }
+    .top {
+        transform: rotate(45deg);
+        transform-origin: left 50%;
+    }
+    .bot {
+        transform: rotate(-45deg);
+        transform-origin: left 50%;
+    }
+}
