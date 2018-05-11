@@ -27,7 +27,7 @@ function shanjiang_load_scripts() {
     wp_enqueue_style('foundation', get_template_directory_uri() . '/css/foundation.css');
     wp_enqueue_style('foundation-app', get_template_directory_uri() . '/css/app.css');
     wp_enqueue_style('site-styles', get_template_directory_uri() . '/css/styles.css', array('foundation', 'foundation-app'));
-    
+
     wp_enqueue_script('font-awesome', '//use.fontawesome.com/372ea690b0.js');
     wp_enqueue_script('what-input', get_template_directory_uri() . '/js/vendor/what-input.js');
     wp_enqueue_script('foundation', get_template_directory_uri() . '/js/vendor/foundation.js', array('jquery'));
@@ -37,3 +37,51 @@ function shanjiang_load_scripts() {
     wp_enqueue_script('portfolio-data', get_template_directory_uri() . '/js/portfolioData.js', array(), false, true);
     wp_enqueue_script('portfolio', get_template_directory_uri() . '/js/portfolio.js', array(), false, true);
 }
+
+function casestudy_posttype() {
+    $labels = array(
+        'name'               => _x('Portfolio', 'Post Type General Name', 'shanjiang'),
+        'singular_name'      => _x('Portfolio', 'Post Type Singular Name', 'shanjiang'),
+        'menu_name'          => __('Portfolios', 'shanjiang'),
+        'parent_item_colon'  => __('Parent Portfolio', 'shanjiang'),
+        'all_items'          => __('All Portfolios', 'shanjiang'),
+        'view_item'          => __('View Portfolio', 'shanjiang'),
+        'add_new_item'       => __('Add New Portfolio', 'shanjiang'),
+        'add_new'            => __('Add New', 'shanjiang'),
+        'edit_item'          => __('Edit Portfolio', 'shanjiang'),
+        'update_item'        => __('Update Portfolio', 'shanjiang'),
+        'search_items'       => __('Search Portfolio', 'shanjiang'),
+        'not_found'          => __('Not Found', 'shanjiang'),
+        'not_found_in_trash' => __('Not found in Trash', 'shanjiang'),
+    );
+
+    $args = array(
+        'label'               => __('portfolio', 'shanjiang'),
+        'description'         => __('Portfolio case study', 'shanjiang'),
+        'labels'              => $labels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+        'menu_icon'           => 'dashicons-align-left',
+    );
+
+    // Registering your Custom Post Type
+    register_post_type('portfolio', $args);
+}
+
+add_action('init', 'casestudy_posttype', 0);

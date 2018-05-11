@@ -1,15 +1,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $mysql_host     = "localhost";
-    $mysql_username = "shanricy_admin";
-    $mysql_password = "%S?MVb;1.D12";
-    $mysql_database = "shanricy_db_visitors";
-    $port           = "3306";
-    $to             = "jiang_shan@live.com";
+    $to = "jiang_shan@live.com";
 
-    $name    = $_POST['user_name'];
-    $email   = $_POST['user_email'];
-    $message = $_POST['user_message'];
+    $name    = trim($_POST['user_name']);
+    $email   = trim($_POST['user_email']);
+    $message = trim($_POST['user_message']);
 
     if (empty($name)) {
         die("Please enter your name");
@@ -17,26 +12,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         die("Please enter valid email address");
     }
-
     if (empty($message)) {
         die("Please enter text");
     }
 
-    $mysqli = new mysqli($mysql_host, $mysql_username, $mysql_password, $mysql_database, $port);
-
-    if ($mysqli->connect_error) {
-        die('Error : (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
-    }
-
-    $statement = $mysqli->prepare("INSERT INTO users_data (user_name, user_email, user_message) VALUES(?, ?, ?)");
-    $statement->bind_param('sss', $name, $email, $message);
-
-    if ($statement->execute()) {
-        print " Hello " . $name . "! Your message has been received! I will contact you very soon. " . "<a href='http://shanjiang.io'><button>Back to home page</button></a>";
+    if (!empty($name) && !empty($email) && !empty($message)) {
+        print " Hello " . $name . "! Your message has been received! I will contact you very soon. " . "<a href='http://wp.shanjiang.io'><button>Back to home page</button></a>";
         $subject = "From" . $name;
         $content = $name . " has left you a message, saying " . $message . ". Please get back to " . $name . " by email on " . $email . ".";
         mail($to, $name, $content);
     } else {
-        print $mysqli->error;
+        echo "Sorry! Something went wrong";
     }
 }

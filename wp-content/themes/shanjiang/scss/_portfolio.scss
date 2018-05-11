@@ -29,32 +29,12 @@
     }
 }
 
-@mixin portfolio_wrap {
+.portfolio_wrap {
     position: relative;
     height: 480px;
     background-size: cover;
     background-position: center;
     cursor: pointer;
-}
-
-#lotr {
-    background: url("../images/lotr_design.jpg");
-    @include portfolio_wrap;
-}
-
-#crunican {
-    background: url("../images/crunican_web.jpg");
-    @include portfolio_wrap;
-}
-
-#logofolio {
-    background: url("../images/the_north_studio.jpg");
-    @include portfolio_wrap;
-}
-
-#photo {
-    background: url("../images/wave.jpg");
-    @include portfolio_wrap;
 }
 
 .portfolio_overlay {
@@ -104,7 +84,7 @@
     }
     h4 {
         font-family: $global_title;
-        font-size: 1.125rem;
+        font-size: 1.125 remF;
         color: $the_gold;
         text-align: left;
         margin-top: 30px;
