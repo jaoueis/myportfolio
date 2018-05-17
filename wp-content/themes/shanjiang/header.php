@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 <?php wp_head(); ?>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
 <body <?php body_class(); ?>>
 <h1 class="hide">S H A N</h1>
