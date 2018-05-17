@@ -24,7 +24,7 @@
             url    : '/wp-content/themes/shanjiang/mail.php',
             data   : $('form').serialize(),
             success: function () {
-                alert('form was submitted');
+                alert('Your message has been submitted! I will contact you very soon.');
             }
         });
 
