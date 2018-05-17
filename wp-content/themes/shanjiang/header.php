@@ -4,6 +4,7 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/banner_photo.jpg">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 <?php wp_head(); ?>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
