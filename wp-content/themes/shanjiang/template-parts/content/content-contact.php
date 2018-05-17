@@ -1,6 +1,6 @@
 <div class="contact_form_container grid-x" id="main_form" data-magellan-target="main_form">
     <h2 class="cell">shoot me a message!</h2>
-    <form method="post" action="/wp-content/themes/shanjiang/mail.php" class="cell medium-10 medium-offset-1 large-6 large-offset-3">
+    <form class="cell medium-10 medium-offset-1 large-6 large-offset-3">
         <div class="form_element">
             <label for="name" class="form_label">Name</label>
             <input type="text" name="user_name" id="name" class="form_input">
