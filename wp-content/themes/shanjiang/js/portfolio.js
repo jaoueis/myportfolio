@@ -1,12 +1,12 @@
 (function () {
-    var portfolio = document.querySelectorAll('.portfolio_overlay'),
-        showboard = document.querySelector('.portfolio_showboard'),
-        close = document.querySelector('.portfolio_close'),
+    var portfolio     = document.querySelectorAll('.portfolio_overlay'),
+        showboard     = document.querySelector('.portfolio_showboard'),
+        close         = document.querySelector('.portfolio_close'),
         portfolioWrap = document.querySelectorAll('.portfolio_wrap'),
-        image = document.querySelector('.portfolio_img'),
-        title = document.querySelector('.portfolio_title'),
-        noScroll = document.querySelector('body'),
-        content = document.querySelector('.portfolio_content');
+        image         = document.querySelector('.portfolio_img'),
+        title         = document.querySelector('.portfolio_title'),
+        noScroll      = document.querySelector('body'),
+        content       = document.querySelector('.portfolio_content');
 
     function hidePortfolioOverlay() {
         this.classList.add('hide_portfolio_overlay');
@@ -24,9 +24,9 @@
     function showInfo() {
         let objectIndex = portfolioData[this.id];
 
-        image.src = objectIndex.image;
-        image.alt = objectIndex.alt;
-        title.innerHTML = objectIndex.title;
+        image.src         = objectIndex.image;
+        image.alt         = objectIndex.alt;
+        title.innerHTML   = objectIndex.title;
         content.innerHTML = objectIndex.content;
     }
 
