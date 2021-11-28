@@ -1,11 +1,11 @@
-(function () {
-    var burger     = document.querySelector('.burger_button'),
-        overlay    = document.querySelector('.nav_overlay'),
-        headerBar  = document.querySelector('.header_bar_container'),
+(function ($) {
+    var burger = document.querySelector('.burger_button'),
+        overlay = document.querySelector('.nav_overlay'),
+        headerBar = document.querySelector('.header_bar_container'),
         headerLogo = document.querySelector('#header_logo'),
-        noScroll   = document.querySelector('body'),
-        backToTop  = document.querySelector('.backToTop_wrap'),
-        deActive   = document.querySelectorAll('.de-active');
+        noScroll = document.querySelector('body'),
+        backToTop = document.querySelector('.backToTop_wrap'),
+        deActive = document.querySelectorAll('.de-active');
 
     function toggleClass() {
         burger.classList.toggle('active');
@@ -30,4 +30,8 @@
     deActive.forEach(function (menu) {
         menu.addEventListener('click', toggleClass, false);
     });
-})();
+
+    $(window).on('load', function () {
+        $('body').addClass('loaded');
+    });
+})(jQuery);
